@@ -8,17 +8,17 @@ body {
 	text-align: center;
 }
 p.Facebook {
-	margin: 0% 0% 0% 0%;
+	margin: 0% 0% 0% 22%;
 	height: 0%;
 	width: 0%;
 }
 p.GitHub {
-	margin: -10% 0% 0% 10%;
+	margin: -6em 0% 0% 40%;
 	height: 0%;
 	width: 0%;
 }
 p.LinkedIn {
-	margin: -10% 0% 0% 60%;
+	margin: -7em 0% 0% 70%;
 	height: 0%;
 	width: 0%;
 }
