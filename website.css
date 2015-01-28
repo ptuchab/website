@@ -12,16 +12,18 @@ body {
 }
 <<<<<<< HEAD
 /*Links*/
-=======
 .About {
 	color: white;
 	text-decoration: none;
 }
 .Resume {
-	color: white;
+	font-size: 200%;
+	margin: 3.5em 0% 0% 5%;
+	text-align: center;
+	vertical-align: middle;
 	text-decoration: none;
+	border-radius: 1em;
 }
->>>>>>> 5f504dbc4823d506a7d67983a02773ffabe4d6f8
 .Facebook {
 	margin: 0% 10% 0% 22%;
 	height: 0%;
@@ -37,17 +39,9 @@ body {
 	height: 0%;
 	width: 0%;
 }
-<<<<<<< HEAD
-.Resume {
-	font-size: 200%;
-	margin: 3.5em 0% 0% 5%;
-	text-align: center;
-	vertical-align: middle;
-	text-decoration: none;
-	border-radius: 1em;
-}
+
 /* Hover features*/
-=======
+
 /*Hover to Text*/
 .Hover span.Text {
 	opacity: 1;
@@ -65,7 +59,6 @@ body {
 }
 
 /*Hover for Images*/
->>>>>>> 5f504dbc4823d506a7d67983a02773ffabe4d6f8
 .Hover span.Logo {
 	opacity: 1;
 }
@@ -78,32 +71,5 @@ body {
 	opacity: 0;
 }
 .Hover:hover span.LogoHover {
-	opacity: 1;
-}
-.Hover span.Text {
-	color: black;
-	border: 10px solid black;
-	padding: 20px;
-	padding-top: 60px;
-	width: 150px;
-	height: 90px;
-	border-radius: 1em;
-	opacity: 1;
-}
-.Hover:hover span.Text {
-	opacity: 0;
-}
-.Hover span.TextHover {
-	opacity: 0;
-}
-.Hover:hover span.TextHover {
-	border: 10px solid white;
-	padding: 20px;
-	padding-top: 60px;
-	width: 150px;
-	height: 90px;
-	border-radius: 1em;
-	color: white;
-	margin-left: -300px;
 	opacity: 1;
 }
