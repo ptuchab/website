@@ -1,5 +1,6 @@
 body {
 	background-color: #2E2E2E;
+	font-family: center;
 }
 h1 {
 	font-family: sans-serif;
@@ -7,34 +8,37 @@ h1 {
 	font-size: 600%;
 	text-align: center;
 }
-body {
-	font-family: sans-serif;
+li {
+	padding: 5%;
+	margin-left: 7%;
+	margin-right: 7%;
+	display: inline;
 }
-<<<<<<< HEAD
+
 /*Links*/
-.About {
-	color: white;
-	text-decoration: none;
-}
-.Resume {
+#About {
 	font-size: 200%;
-	margin: 3.5em 0% 0% 5%;
-	text-align: center;
 	vertical-align: middle;
-	text-decoration: none;
-	border-radius: 1em;
 }
-.Facebook {
+#Resume {
+	font-size: 200%;
+	vertical-align: middle;
+}
+#SeniorDesign {
+	font-size: 200%;
+	vertical-align: middle;
+}
+#Facebook {
 	margin: 0% 10% 0% 22%;
 	height: 0%;
 	width: 0%;
 }
-.GitHub {
+#GitHub {
 	margin: -6em 10% 0% 45%;
 	height: 0%;
 	width: 0%;
 }
-.LinkedIn {
+#LinkedIn {
 	margin: -7em 10% 0% 70%;
 	height: 0%;
 	width: 0%;
@@ -42,20 +46,13 @@ body {
 
 /* Hover features*/
 
-/*Hover to Text*/
-.Hover span.Text {
-	opacity: 1;
+/*Hover for Text*/
+a {
+	color: white;
+	text-decoration: none;
 }
-.Hover:hover span.Text {
-	opacity: 0;
-}
-.Hover span.TextHover {
-	position: absolute;
-	margin-top: -5px;
-	opacity: 0;
-}
-.Hover:hover span.TextHover {
-	opacity: 1;
+a:hover{
+	text-decoration: underline;
 }
 
 /*Hover for Images*/
