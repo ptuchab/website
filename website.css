@@ -18,6 +18,13 @@ h1 {
 }
 li {
 	display: inline;
+	font-size: 200%;
+}
+img.Logo {
+	width:100px;
+}
+img.LogoHover {
+	width: 100px;
 }
 
 .backgroundImage {
@@ -30,66 +37,51 @@ li {
 	border: 1px black;
 }
 
-/*Links*/
-#About {
-	font-size: 200%;
+.box{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
-#Resume {
-	font-size: 200%;
-}
-#SeniorDesign {
-	font-size: 200%;
-}
-#Facebook {
-	width: 0%;
-	height: 0%;
-}
-#GitHub {
-	width: 0%;
-	height: 0%;
-}
-#LinkedIn {
-	width: 0%;
-	height: 0%;
-}
+	.Left {
+		position: relative;
+		left: 0%;
+	}
 
-.Left {
-	width: 33%;
-}
+	.Middle {
+		position: relative;
+		left: 33%;
+	}
 
-.Middle {
-	width: 33%;
-	float: right;
-}
-
-.Right {
-	width: 33%;
-	float: right;
-}
+	.Right {
+		position: relative;
+		left: 66%;
+	}
 
 /* Hover features*/
 
-/*Hover for Text*/
-a {
-	color: white;
-	text-decoration: none;
-}
-a:hover{
-	text-decoration: underline;
-}
+	/*Hover for Text*/
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
 
-/*Hover for Images*/
-.Hover span.Logo {
-	opacity: 1;
-}
-.Hover:hover span.Logo {
-	opacity: 0;
-}
-.Hover span.LogoHover {
-	position: relative;
-	top: -100px;
-	opacity: 0;
-}
-.Hover:hover span.LogoHover {
-	opacity: 1;
-}
+	/*Hover for Images*/
+		.Logo {
+			opacity: 1;
+		}
+		.Logo:hover {
+			opacity: 0;
+		}
+		.LogoHover{
+			position:relative;
+			left: -100px;
+		}
+		.LogoHover {
+			opacity: 0;
+		}
+		.LogoHover:hover {
+			opacity: 1;
+		}
