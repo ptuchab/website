@@ -20,12 +20,12 @@ li {
 	display: inline;
 	font-size: 200%;
 }
-img.Logo {
+/*.Logo {
 	width:100px;
 }
-img.LogoHover {
+.LogoHover {
 	width: 100px;
-}
+}*/
 
 .backgroundImage {
 	width: 100%;
