@@ -31,35 +31,35 @@ li {
 	border: 1px black;
 }
 
-/*Wrappers for links*/
+/*Containers for links*/
 .box{
 	width: 100%;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-	.1-2 {
+	.pos1-2 {
 		position: relative;
-		left: 0%;
+		left: 25%;
 	}
-	.2-2 {
+	.pos2-2 {
+		position: relative;
+		left: 70%;
+	}
+	.pos1-3 {
+		position: relative;
+		left: 16.7%;
+	}
+
+	.pos2-3 {
 		position: relative;
 		left: 50%;
 	}
-	.1-3 {
-		position: relative;
-		left: 0%;
-	}
 
-	.2-3 {
+	.pos3-3 {
 		position: relative;
-		left: 33%;
+		left: 86.6%;
 	}
-
-	.2-3 {
-		position: relative;
-		left: 66%;
-	}
-/*End of Wrappers for links*/
+/*End of Containers for links*/
 
 /* Hover features*/
 
@@ -73,15 +73,37 @@ li {
 		}
 
 	/*Hover for Images*/
+		#Facebook {
+		height: 100px;
+		width: 100px;
+		}
+		#Github {
+			top: -100px;
+			height: 100px;
+			width: 100px;
+		}
+		#LinkedIn {
+			top: -200px;
+			height: 100px;
+			width: 100px;
+		}
+		.Logo {
+			height:100px;
+			width: 100px;
+		}
+		.LogoHover {
+			height: 100px;
+			width: 100px;
+		}
+		div.LogoHover {
+			position:relative;
+			top:-100px;
+		}
 		.Logo {
 			opacity: 1;
 		}
 		.Logo:hover {
 			opacity: 0;
-		}
-		.LogoHover{
-			position:relative;
-			left: -100px;
 		}
 		.LogoHover {
 			opacity: 0;
